@@ -5,5 +5,5 @@ function easiestwp_scripts() {
 add_action( 'wp_enqueue_scripts', 'easiestwp_scripts' );
 
 function easiestwp_setup() {
-	// ここに関数の中身を記述
+	add_theme_support( 'title-tag' );
 }
