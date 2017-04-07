@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Easiest WP</title>
 	<?php wp_head(); ?>
