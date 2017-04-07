@@ -1,4 +1,4 @@
 <?php
 function easiestwp_scripts() {
-	// ここに関数の中身を記述
+	wp_enqueue_style( 'easiestwp-style', get_stylesheet_uri() );
 }
