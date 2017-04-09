@@ -39,7 +39,7 @@
 							<li class="item-archive">
 								<div class="time-and-thumb-archive">
 									<time class="pub-date" datetime="2017-02-05T07:49:26+09:00">2017年4月1日</time>
-									<p class="thumb thumb-archive"><a href="single.html"><img src="http://placehold.it/190x130"></a></p>
+									<p class="thumb thumb-archive"><a href="<?php the_permalink(); ?>"><img src="http://placehold.it/190x130"></a></p>
 								</div>
 								<div class="data-archive">
 									<p class="list-categories-archive"><a href="archive.html">カテゴリ名</a></p>
