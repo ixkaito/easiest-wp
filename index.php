@@ -69,7 +69,7 @@
 
 		</div>
 
-		<?php if ( is_active_sidebar( 'left-sidebar' ) ) : ?>
+		<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
 			<ul class="side-column">
 				<?php dynamic_sidebar( 'sidebar' ); ?>
 			</ul>
@@ -79,7 +79,7 @@
 
 	<footer class="page-footer">
 		<div class="footer-widget-area">
-			<ul class="banner-list">
+			<ul class="footer-widgets">
 				<li><a href="#"><img src="http://placehold.it/320x80"></a></li>
 				<li><a href="#"><img src="http://placehold.it/320x80"></a></li>
 				<li><a href="#"><img src="http://placehold.it/320x80"></a></li>
