@@ -15,6 +15,8 @@ function easiestwp_setup() {
 
 	add_image_size( 'easiestwp-avatar', 130, 130, true );
 
-	register_nav_menus();
+	register_nav_menus( array(
+		'global' => 'Global Menu',
+	) );
 }
 add_action( 'after_setup_theme', 'easiestwp_setup' );
