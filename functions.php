@@ -14,5 +14,7 @@ function easiestwp_setup() {
 	add_image_size( 'easiestwp-hero', 1200, 630, true );
 
 	add_image_size( 'easiestwp-avatar', 130, 130, true );
+
+	register_nav_menus();
 }
 add_action( 'after_setup_theme', 'easiestwp_setup' );
