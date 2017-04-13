@@ -69,9 +69,9 @@
 
 		</div>
 
-		<ul class="side-column">
-			<?php dynamic_sidebar( 'sidebar' ); ?>
-		</ul>
+			<ul class="side-column">
+				<?php dynamic_sidebar( 'sidebar' ); ?>
+			</ul>
 
 	</div>
 
