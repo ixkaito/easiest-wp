@@ -12,6 +12,7 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a></p>
 				<p class="site-subtitle"><?php bloginfo( 'description' ); ?></p>
 			</div>
+
 			<nav class="global-nav">
 				<ul id="global-menu" class="menu">
 					<li class="current-menu-item"><a href="index.html">ホーム</a></li>
@@ -20,8 +21,10 @@
 					<li><a href="contact.html">お問い合わせ</a></li>
 				</ul>
 			</nav>
+
 		</div>
 	</header>
+
 	<div class="hero"></div>
 	<div class="content-area has-side-col">
 		<div class="main-column">
@@ -65,6 +68,7 @@
 			<?php the_posts_pagination(); ?>
 
 		</div>
+
 		<ul class="side-column">
 			<li class="widget">
 				<form class="searchform">
@@ -93,7 +97,9 @@
 				</ul>
 			</li>
 		</ul>
+
 	</div>
+
 	<footer class="page-footer">
 		<div class="footer-widget-area">
 			<ul class="banner-list">
