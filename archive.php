@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-	<div class="hero"></div>
+	<div class="hero">
+	</div>
 	<div class="content-area has-side-col">
 		<div class="main-column">
 			<h1 class="box-heading box-heading-main-col">Blog</h1>
