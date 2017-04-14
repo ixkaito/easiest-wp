@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 	<div class="page-title">
-		<h1><?php the_archive_title(); ?></h1>
+		<h1>Not Found</h1>
 	</div>
 	<div class="content-area has-side-col">
 		<div class="main-column">
-			<h1 class="box-heading box-heading-main-col"><?php the_archive_title(); ?></h1>
+			<h1 class="box-heading box-heading-main-col">Not Found</h1>
 			<div class="box-content">
 
 				<?php if ( have_posts() ) : ?>
