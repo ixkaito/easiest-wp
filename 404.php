@@ -12,8 +12,6 @@
 
 			</div>
 
-			<?php the_posts_pagination(); ?>
-
 		</div>
 
 		<?php get_sidebar(); ?>
