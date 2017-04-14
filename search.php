@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div class="page-title">
-		<h1><?php the_archive_title(); ?></h1>
+		<h1>「<?php the_search_query(); ?>」の検索結果</h1>
 	</div>
 	<div class="content-area has-side-col">
 		<div class="main-column">
@@ -36,7 +36,7 @@
 
 				<?php else : ?>
 
-					<p>何も見つかりませんでした。</p>
+					<p>投稿がありません。</p>
 
 				<?php endif; ?>
 
