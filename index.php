@@ -6,7 +6,7 @@
 
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 	<header class="page-header">
 		<div class="header-area">
 			<div class="panel-site-title">
