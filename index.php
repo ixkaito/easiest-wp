@@ -10,7 +10,7 @@
 	<header class="page-header">
 		<div class="header-area">
 			<div class="panel-site-title">
-				<p class="site-title"><a href="index.html"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a></p>
 				<p class="site-subtitle"><?php bloginfo( 'description' ); ?></p>
 			</div>
 
