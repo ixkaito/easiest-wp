@@ -46,9 +46,9 @@
 									<p class="thumb thumb-archive"><a href="<?php the_permalink(); ?>"><img src="http://placehold.it/190x130"></a></p>
 								</div>
 								<div class="data-archive">
-									<p class="list-categories-archive"><a href="archive.html">カテゴリ名</a></p>
+									<p class="list-categories-archive"><?php the_category( ', ' ); ?></p>
 									<h2 class="title-archive"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-									<p class="list-tags-archive">タグ: <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a></p>
+									<p class="list-tags-archive"><?php the_tags(); ?></p>
 								</div>
 							</li>
 
