@@ -148,5 +148,6 @@
 			<p>Copyright ©  Gijutsu-Hyohron Co., Ltd.</p>
 		</div>
 	</footer>
+	<?php wp_footer(); ?>
 </body>
 </html>
