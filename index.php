@@ -32,6 +32,8 @@
 			<h1 class="box-heading box-heading-main-col">Blog</h1>
 			<div class="box-content">
 
+				<?php if ( have_posts() ) : ?>
+
 					<ul class="archive">
 						<li class="item-archive">
 							<div class="time-and-thumb-archive">
