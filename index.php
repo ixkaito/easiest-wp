@@ -64,7 +64,10 @@
 
 			</div>
 
-			<?php the_posts_pagination(); ?>
+			<?php the_posts_pagination( array(
+				'prev_text' => '<img class="arrow" src="images/arrow-left.png" srcset="images/arrow-left@2x.png 2x" alt="前へ">',
+				'next_text' => '<img class="arrow" src="images/arrow-right.png" srcset="images/arrow-right@2x.png 2x" alt="次へ">',
+			) ); ?>
 
 		</div>
 
