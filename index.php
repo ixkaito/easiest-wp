@@ -47,7 +47,7 @@
 								</div>
 								<div class="data-archive">
 									<p class="list-categories-archive"><a href="archive.html">カテゴリ名</a></p>
-									<h2 class="title-archive"><a href="single.html">記事タイトル記事タイトル記事タイトル記事タイトル</a></h2>
+									<h2 class="title-archive"><a href="single.html"><?php the_title(); ?></a></h2>
 									<p class="list-tags-archive">タグ: <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a></p>
 								</div>
 							</li>
