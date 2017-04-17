@@ -92,6 +92,12 @@
 						</li>
 					</ul>
 
+				<?php else : ?>
+
+					<p>投稿がありません。</p>
+
+				<?php endif; ?>
+
 			</div>
 
 			<nav class="pagination">
