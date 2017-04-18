@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<?php while ( have_posts() ) : ?>
+
+	<?php the_post(); ?>
+
 	<div class="hero eyecatch">
 		<img src="http://placehold.it/1200x630">
 	</div>
