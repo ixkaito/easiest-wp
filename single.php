@@ -13,7 +13,7 @@
 	<div class="content-area has-side-col">
 		<div class="main-column">
 			<div class="box-generic">
-				<h1 class="box-heading box-heading-article">吾輩は猫である。名前はまだ無い。</h1>
+				<h1 class="box-heading box-heading-article"><?php the_title(); ?></h1>
 				<div class="box-content">
 
 					<article class="entry">
