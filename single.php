@@ -21,10 +21,10 @@
 					</article>
 
 					<div class="meta-data">
-						<time class="meta meta-entry-date">2016.11.12</time>
-						<p class="meta meta-author">著者名</p>
-						<p class="meta meta-cat">カテゴリ名</p>
-						<p class="meta meta-tag">タグ, タグ, タグ, タグ</p>
+						<time class="meta meta-entry-date" datetime="2017-04-01T23:59:99+09:00">2017年4月1日</time>
+						<p class="meta meta-author"><a href="archive.html">著者名</a></p>
+						<p class="meta meta-cat"><a href="archive.html">カテゴリ名</a></p>
+						<p class="meta meta-tag">タグ: <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a></p>
 					</div>
 
 					<div class="related-posts">
@@ -65,7 +65,7 @@
 							<article id="div-comment-1" class="comment-body">
 								<footer class="comment-meta">
 									<div class="comment-author vcard">
-										<img src="http://placehold.it/130x130">
+										<img class="avatar" src="http://placehold.it/130x130">
 										<b class="fn"><a href="#" rel="external nofollow" class="url">WordPress コメントの投稿者</a></b> <span class="says">より:</span>
 									</div><!-- .comment-author -->
 									<div class="comment-metadata">
@@ -87,7 +87,7 @@
 									<article id="div-comment-3" class="comment-body">
 										<footer class="comment-meta">
 											<div class="comment-author vcard">
-												<img src="http://placehold.it/130x130">
+												<img class="avatar" src="http://placehold.it/130x130">
 												<b class="fn">admin</b> <span class="says">より:</span>
 											</div><!-- .comment-author -->
 											<div class="comment-metadata">
