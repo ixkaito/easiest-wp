@@ -27,33 +27,12 @@
 						<p class="meta meta-tag"><?php the_tags(); ?></p>
 					</div>
 
-					<div class="related-posts">
-						<h2>関連する記事</h2>
-						<ul class="archive">
-							<li class="item-archive">
-								<div class="time-and-thumb-archive">
-									<time class="pub-date" datetime="2011-12-03">Sep 8, 2016</time>
-									<p class="thumb thumb-archive"><a href="single.html"><img src="http://placehold.it/190x130"></a></p>
-								</div>
-								<div class="data-archive">
-									<p class="list-categories-archive"><a href="archive.html">カテゴリ名</a></p>
-									<h2 class="title-archive"><a href="single.html">記事タイトル記事タイトル記事タイトル記事タイトル</a></h2>
-									<p class="list-tags-archive"><a href="archive.html">タグ</a>, <a href="archive.html">タグ</a>, <a href="archive.html">タグ</a>, <a href="archive.html">タグ</a></p>
-								</div>
-							</li>
-							<li class="item-archive">
-								<div class="time-and-thumb-archive">
-									<time class="pub-date" datetime="2011-12-03">Sep 8, 2016</time>
-									<p class="thumb thumb-archive"><a href="single.html"><img src="http://placehold.it/190x130"></a></p>
-								</div>
-								<div class="data-archive">
-									<p class="list-categories-archive"><a href="archive.html">カテゴリ名</a></p>
-									<h2 class="title-archive"><a href="single.html">記事タイトル記事タイトル記事タイトル記事タイトル</a></h2>
-									<p class="list-tags-archive"><a href="archive.html">タグ</a>, <a href="archive.html">タグ</a>, <a href="archive.html">タグ</a>, <a href="archive.html">タグ</a></p>
-								</div>
-							</li>
-						</ul>
-					</div>
+					<nav class="navigation post-navigation" role="navigation">
+						<div class="nav-links">
+							<div class="nav-previous"><a href="single.html">前の記事：記事タイトル記事タイトル記事タイトル記事タイトル</a></div>
+							<div class="nav-next"><a href="single.html">次の記事：記事タイトル記事タイトル記事タイトル記事タイトル</a></div>
+						</div>
+					</nav>
 				</div>
 			</div>
 
