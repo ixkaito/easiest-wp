@@ -12,8 +12,9 @@
 		</div>
 	</div>
 <?php endif; ?>
-<div class="box-generic">
-	<div class="box-content box-comment-input">
-		<?php comment_form(); ?>
+
+	<div class="box-generic">
+		<div class="box-content box-comment-input">
+			<?php comment_form(); ?>
+		</div>
 	</div>
-</div>
