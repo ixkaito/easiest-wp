@@ -43,9 +43,9 @@
 							<li class="item-archive">
 								<div class="time-and-thumb-archive">
 									<time class="pub-date" datetime="<?php echo get_the_date( DATE_W3C ); ?>"><?php echo get_the_date(); ?></time>
-
-										<p class="thumb thumb-archive"><a href="<?php the_permalink(); ?>"><img src="http://placehold.it/190x130"></a></p>
-
+									<?php if ( has_post_thumbnail() ) : ?>
+										<p class="thumb thumb-archive"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'easiestwp-thumbnail' ); ?></a></p>
+									<?php endif; ?>
 								</div>
 								<div class="data-archive">
 									<p class="list-categories-archive"><?php the_category( ', ' ); ?></p>
