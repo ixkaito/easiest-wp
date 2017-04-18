@@ -4,9 +4,9 @@
 
 	<?php the_post(); ?>
 
-	<div class="hero eyecatch">
-		<img src="http://placehold.it/1200x630">
-	</div>
+		<div class="hero eyecatch">
+			<img src="http://placehold.it/1200x630">
+		</div>
 
 	<div class="content-area has-side-col">
 		<div class="main-column">
