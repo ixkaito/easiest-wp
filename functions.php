@@ -16,6 +16,11 @@ function easiestwp_setup() {
 	register_nav_menus( array(
 		'global' => 'Global Menu',
 	) );
+
+	add_theme_support( 'html5', array(
+		'comment-form',
+		'comment-list',
+	) );
 }
 add_action( 'after_setup_theme', 'easiestwp_setup' );
 
