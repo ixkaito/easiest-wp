@@ -21,10 +21,10 @@
 					</article>
 
 					<div class="meta-data">
-						<time class="meta meta-entry-date" datetime="2017-04-01T23:59:99+09:00">2017年4月1日</time>
-						<p class="meta meta-author"><a href="archive.html">著者名</a></p>
-						<p class="meta meta-cat"><a href="archive.html">カテゴリ名</a></p>
-						<p class="meta meta-tag">タグ: <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a>, <a href="archive.html">タグ名</a></p>
+						<time class="meta meta-entry-date" datetime="<?php echo get_the_date( DATE_W3C ); ?>"><?php echo get_the_date(); ?></time>
+						<p class="meta meta-author"><?php the_author_posts_link(); ?></p>
+						<p class="meta meta-cat"><?php the_category( ', ' ); ?></p>
+						<p class="meta meta-tag"><?php the_tags(); ?></p>
 					</div>
 
 					<div class="related-posts">
