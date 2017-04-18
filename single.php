@@ -4,9 +4,11 @@
 
 	<?php the_post(); ?>
 
+	<?php if ( has_post_thumbnail() ) : ?>
 		<div class="hero eyecatch">
-			<img src="http://placehold.it/1200x630">
+			<?php the_post_thumbnail( 'easiestwp-hero' ); ?>
 		</div>
+	<?php endif; ?>
 
 	<div class="content-area has-side-col">
 		<div class="main-column">
