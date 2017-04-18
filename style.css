@@ -1412,6 +1412,7 @@ comment
 .comment-body {
 	font-size: 14px;
 	margin-bottom: 30px;
+	overflow: hidden;
 }
 
 .comment-meta {
@@ -1425,8 +1426,8 @@ comment
 
 .comment-author .avatar {
 	border-bottom-right-radius: 20px;
-	left: 0;
-	position: absolute;
+	float: left;
+	margin-right: 20px;
 }
 
 .comment-metadata {
@@ -1437,10 +1438,9 @@ comment
 	content: "| ";
 }
 
-.comment-author,
 .comment-metadata,
 .comment-content {
-	padding-left: 150px;
+	overflow: hidden;
 }
 
 .comment-list .children {
@@ -1448,11 +1448,12 @@ comment
 }
 
 .reply {
-	margin: 0;
-	padding-right: 20px;
-	text-align: right;
 	color: #707070;
 	font-size: 14px;
+	margin: 0;
+	padding-right: 20px;
+	overflow: hidden;
+	text-align: right;
 }
 
 .comment-reply-title {
