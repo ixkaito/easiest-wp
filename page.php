@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<?php while ( have_posts() ) : ?>
+
+	<?php the_post(); ?>
+
 	<div class="page-title">
 		<h1>プロフィール</h1>
 	</div>
@@ -38,5 +42,7 @@
 		endif; ?>
 
 	</div>
+
+<?php endwhile; ?>
 
 <?php get_footer();
