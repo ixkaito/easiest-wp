@@ -38,6 +38,9 @@ function easiestwp_widgets_init() {
 add_action( 'widgets_init', 'easiestwp_widgets_init' );
 
 function easiestwp_customize_register( $wp_customize ) {
-	// ここでパネル、セクション、コントロール、セッティングを追加します。
+	$wp_customize->add_section( 'theme_options', array(
+		'title'    => 'Theme Options',
+		'priority' => 130,
+	) );
 }
 add_action( 'customize_register', 'easiestwp_customize_register' );
