@@ -6,6 +6,8 @@
 
 			<?php for ( $i = 1; $i <= 5; $i++ ) : ?>
 
+				<?php if ( get_theme_mod( 'front_page_content_' . $i ) ) : ?>
+
 					<h1 class="box-heading box-heading-main-col">Blog</h1>
 					<div class="box-content">
 
@@ -42,6 +44,8 @@
 						<?php endif; ?>
 
 					</div>
+
+				<?php endif; ?>
 
 			<?php endfor; ?>
 
