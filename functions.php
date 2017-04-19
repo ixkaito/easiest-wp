@@ -43,16 +43,16 @@ function easiestwp_customize_register( $wp_customize ) {
 		'priority' => 130,
 	) );
 
-	$wp_customize->add_setting( 'front_page_content_1', array(
-		'default'           => false,
-		'sanitize_callback' => 'absint',
-	) );
+		$wp_customize->add_setting( 'front_page_content_1', array(
+			'default'           => false,
+			'sanitize_callback' => 'absint',
+		) );
 
-	$wp_customize->add_control( 'front_page_content_1', array(
-		'label'           => 'Front Page Content 1',
-		'section'         => 'theme_options',
-		'type'            => 'dropdown-pages',
-		'allow_addition'  => true,
-	) );
+		$wp_customize->add_control( 'front_page_content_1', array(
+			'label'           => 'Front Page Content 1',
+			'section'         => 'theme_options',
+			'type'            => 'dropdown-pages',
+			'allow_addition'  => true,
+		) );
 }
 add_action( 'customize_register', 'easiestwp_customize_register' );
