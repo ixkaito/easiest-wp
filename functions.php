@@ -36,3 +36,8 @@ function easiestwp_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'easiestwp_widgets_init' );
+
+function easiestwp_customize_register( $wp_customize ) {
+	// ここでパネル、セクション、コントロール、セッティングを追加します。
+}
+add_action( 'customize_register', 'easiestwp_customize_register' );

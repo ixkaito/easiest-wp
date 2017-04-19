@@ -41,6 +41,10 @@
 
 				<?php endif; ?>
 
+				<?php if ( is_category() ) : ?>
+					<?php wp_list_categories(); ?>
+				<?php endif; ?>
+
 			</div>
 
 			<?php the_posts_pagination( array(
