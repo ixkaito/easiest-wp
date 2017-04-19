@@ -16,6 +16,12 @@
 					<h1 class="box-heading box-heading-main-col"><?php the_title(); ?></h1>
 					<div class="box-content">
 
+						<?php
+						$blog_posts_page_id = get_the_ID();
+
+						if ( $blog_posts_page_id === (int) get_option( 'page_for_posts' ) ) :
+						?>
+
 							<?php if ( have_posts() ) : ?>
 
 								<ul class="archive">
@@ -47,6 +53,12 @@
 								<p>投稿がありません。</p>
 
 							<?php endif; ?>
+
+						<?php else : ?>
+
+							<?php the_content(); ?>
+
+						<?php endif; ?>
 
 					</div>
 
