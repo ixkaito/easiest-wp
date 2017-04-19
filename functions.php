@@ -16,6 +16,11 @@ function easiestwp_setup() {
 	register_nav_menus( array(
 		'global' => 'Global Menu',
 	) );
+
+	add_theme_support( 'html5', array(
+		'comment-form',
+		'comment-list',
+	) );
 }
 add_action( 'after_setup_theme', 'easiestwp_setup' );
 
@@ -23,6 +28,11 @@ function easiestwp_widgets_init() {
 	register_sidebar( array(
 		'name' => 'Sidebar',
 		'id' => 'sidebar',
+	) );
+
+	register_sidebar( array(
+		'name' => 'Footer',
+		'id' => 'footer',
 	) );
 }
 add_action( 'widgets_init', 'easiestwp_widgets_init' );
