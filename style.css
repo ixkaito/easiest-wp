@@ -742,6 +742,7 @@ generic parts
 .box-content,
 .searchform > div,
 .calendar_wrap,
+.tagcloud,
 .widget ul {
 	padding: 30px;
 	background-color: #FFF;
@@ -761,6 +762,7 @@ generic parts
 
 .box-content.radius-br,
 .widgettitle + .calendar_wrap,
+.widgettitle + .tagcloud,
 .widgettitle + .searchform > div,
 .widget .widgettitle + ul {
 	border-radius: 0 0 20px 0;
@@ -1291,16 +1293,17 @@ footer
 }
 
 .footer-widgets {
-	margin: 0;
-	padding: 0;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: stretch;
+	list-style: none;
+	margin: 0;
+	padding: 20px 30px;
 }
 
-.footer-widget {
-	margin: 10px;
-	width: 320px;
+.footer-widgets > li {
+	width: 340px;
 }
 
 .footer-widget .searchform > div,
