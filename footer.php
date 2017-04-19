@@ -1,10 +1,10 @@
 	<footer class="page-footer">
 		<div class="footer-widget-area">
-			<ul class="banner-list">
-				<li><a href="#"><img src="http://placehold.it/320x80"></a></li>
-				<li><a href="#"><img src="http://placehold.it/320x80"></a></li>
-				<li><a href="#"><img src="http://placehold.it/320x80"></a></li>
-			</ul>
+			<?php if ( is_active_sidebar( 'footer' ) ) : ?>
+				<ul class="banner-list">
+					<?php dynamic_sidebar( 'footer' ); ?>
+				</ul>
+			<?php endif; ?>
 			<div class="back-to-top">
 				<a href="#"><img src="images/arrow-up.png" srcset="images/arrow-up@2x.png 2x" alt="">TOP</a>
 			</div>
