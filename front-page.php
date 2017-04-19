@@ -8,6 +8,11 @@
 
 				<?php if ( get_theme_mod( 'front_page_content_' . $i ) ) : ?>
 
+					<?php
+					$post = get_post( get_theme_mod( 'front_page_content_' . $i ) );
+					setup_postdata( $post );
+					?>
+
 					<h1 class="box-heading box-heading-main-col">Blog</h1>
 					<div class="box-content">
 
