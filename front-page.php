@@ -30,13 +30,13 @@
 							) );
 							?>
 
-							<?php if ( have_posts() ) : ?>
+							<?php if ( $blog_posts->have_posts() ) : ?>
 
 								<ul class="archive">
 
-									<?php while ( have_posts() ) : ?>
+									<?php while ( $blog_posts->have_posts() ) : ?>
 
-									<?php the_post(); ?>
+									<?php $blog_posts->the_post(); ?>
 
 										<li class="item-archive">
 											<div class="time-and-thumb-archive">
