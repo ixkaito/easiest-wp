@@ -54,6 +54,8 @@
 
 			<?php endfor; ?>
 
+			<?php wp_reset_postdata(); ?>
+
 			<?php the_posts_pagination( array(
 				'prev_text' => '<img class="arrow" src="' . get_theme_file_uri() . '/images/arrow-left.png" srcset="' . get_theme_file_uri() . '/images/arrow-left@2x.png 2x" alt="前へ">',
 				'next_text' => '<img class="arrow" src="' . get_theme_file_uri() . '/images/arrow-right.png" srcset="' . get_theme_file_uri() . '/images/arrow-right@2x.png 2x" alt="次へ">',
