@@ -42,5 +42,10 @@ function easiestwp_customize_register( $wp_customize ) {
 		'title'    => 'Theme Options',
 		'priority' => 130,
 	) );
+
+	$wp_customize->add_setting( 'front_page_content_1', array(
+		'default'           => false,
+		'sanitize_callback' => 'absint',
+	) );
 }
 add_action( 'customize_register', 'easiestwp_customize_register' );
