@@ -43,6 +43,7 @@ function easiestwp_customize_register( $wp_customize ) {
 		'priority' => 130,
 	) );
 
+	for ( $i = 1; $i <= 5; $i++ ) {
 		$wp_customize->add_setting( 'front_page_content_1', array(
 			'default'           => false,
 			'sanitize_callback' => 'absint',
@@ -54,5 +55,6 @@ function easiestwp_customize_register( $wp_customize ) {
 			'type'            => 'dropdown-pages',
 			'allow_addition'  => true,
 		) );
+	}
 }
 add_action( 'customize_register', 'easiestwp_customize_register' );
