@@ -4,6 +4,8 @@
 	<div class="content-area has-side-col">
 		<div class="main-column">
 
+			<?php for ( $i = 1; $i <= 5; $i++ ) : ?>
+
 				<h1 class="box-heading box-heading-main-col">Blog</h1>
 				<div class="box-content">
 
@@ -40,6 +42,8 @@
 					<?php endif; ?>
 
 				</div>
+
+			<?php endfor; ?>
 
 			<?php the_posts_pagination( array(
 				'prev_text' => '<img class="arrow" src="' . get_theme_file_uri() . '/images/arrow-left.png" srcset="' . get_theme_file_uri() . '/images/arrow-left@2x.png 2x" alt="前へ">',
