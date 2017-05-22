@@ -58,3 +58,8 @@ function easiestwp_customize_register( $wp_customize ) {
 	}
 }
 add_action( 'customize_register', 'easiestwp_customize_register' );
+
+function easiestwp_front_page_template( $template ) {
+	return is_home() ? '' : $template;
+}
+add_filter( 'frontpage_template',  'easiestwp_front_page_template' );
